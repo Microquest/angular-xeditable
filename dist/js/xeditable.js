@@ -2155,7 +2155,7 @@ angular.module('xeditable').factory('editableThemes', function() {
       inputTpl:     '',
       errorTpl:     '<div class="editable-error" ng-show="$error" ng-bind="$error"></div>',
       buttonsTpl:   '<span class="editable-buttons"></span>',
-      submitTpl:    '<button type="submit")>save</button>',
+      submitTpl:    '<button type="submit">save</button>',
       cancelTpl:    '<button type="button" ng-click="$form.$cancel()">cancel</button>'
     },
 
